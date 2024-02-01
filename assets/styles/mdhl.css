@@ -59,7 +59,6 @@ article{
 .hockey1{
     float: left;
     clear: left;
-    display: inline-block;
 }
 .email{
     padding-top: 130px;
@@ -74,7 +73,6 @@ article{
 .logo{
     float: left;
     clear: left;
-    display: inline-block;
    height: 200px;
     margin-bottom: 20px;
 }
