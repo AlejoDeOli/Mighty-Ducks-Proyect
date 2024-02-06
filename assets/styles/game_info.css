@@ -76,43 +76,16 @@ header nav a:nth-child(3) {
 a:hover {
     transform: scale(.88);
 }
-
 h2 {
     font-size: 40px;
     text-align: center;
     text-decoration: underline;
-}
-
-h2,
-h3 {
     color: rgb(220, 238, 255);
     font-style: italic;
 }
-
-h3 {
-    font-size: 25px;
-}
-
-p {
-    font-family: cursive;
-    text-indent: 15px;
-    font-size: 20px;
-    color: aliceblue;
-}
-
-section {
+section{
     display: flex;
-    align-items: center;
 }
-
-article {
-    flex-direction: column;
-    align-self: center;
-    font-size: 20px;
-    margin-left: 60px;
-    width: 60ch;
-}
-
 .images {
     display: flex;
     flex-direction: column;
@@ -130,27 +103,51 @@ article {
     height: 250px;
     margin-bottom: 20px;
 }
-
-.art {
-    display: inline-block;
-    width: 93%;
+.title_board{
+    width: 73%;
+    padding-top: 20px;
 }
-
-.article1,
-.article2,
-.article3 {
+.title_board h3{
+    font-size: 26px;
+    color: azure;
+}
+table{
+    background-color: rgba(121, 121, 121, 0.521);
+    border: 1px solid black;
+    margin:0 auto;
+    text-align:center
+}
+th, tr, td{
+    border: 1px solid black;
+}
+th, td{
+    padding: 8px 15px;
+}
+th{
+    background-color: rgba(248, 248, 248, 0.527);
+}
+.important{
     font-size: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    display: inline-block;
-    width: 93%;
+    color: azure;
+    text-decoration: underline azure;
+    padding-bottom: 15px;
 }
-
-.div__email {
+.foot_table{
+    margin: 20px 0 10px 0;
+    font-size: 22px;
+    color: azure;
+}
+.foot_table p{
+    padding-bottom: 15px;
+}
+.foot_table2{
+    display: flex;
+    flex-direction: row;
     font-size: 20px;
-    display: inline-block;
-    padding-left: 60px;
+    color: azure;
+    justify-content: space-around;
 }
-article div{
-    padding-top: 30px;
+.foot_table2 a{
+    text-decoration: none;
+    color: rgb(60, 177, 255);
 }

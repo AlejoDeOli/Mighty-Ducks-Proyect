@@ -15,7 +15,6 @@ html {
     width: 100%;
     background: linear-gradient(#99AABF,#37538C);
 }
-
 .nombre__marca {
     text-shadow: 3px 2px 0px rgba(0, 0, 0, 0.3);
     font-size: 50px;
@@ -31,7 +30,6 @@ html {
     height: 75px;
     text-align: center;
 }
-
 .banner {
     margin-top: 0.5px;
     border: solid 1px;
@@ -40,7 +38,6 @@ html {
     object-fit: cover;
     object-position: 0 35%;
 }
-
 .nav__principal {
     display: flex;
     justify-content: end;
@@ -76,43 +73,18 @@ header nav a:nth-child(3) {
 a:hover {
     transform: scale(.88);
 }
-
-h2 {
-    font-size: 40px;
-    text-align: center;
-    text-decoration: underline;
-}
-
-h2,
-h3 {
-    color: rgb(220, 238, 255);
-    font-style: italic;
-}
-
-h3 {
-    font-size: 25px;
-}
-
-p {
-    font-family: cursive;
-    text-indent: 15px;
-    font-size: 20px;
-    color: aliceblue;
-}
-
-section {
+section{
     display: flex;
+}
+.title_lista{
+    display: flex;
+    justify-content: center;
     align-items: center;
-}
-
-article {
     flex-direction: column;
-    align-self: center;
-    font-size: 20px;
-    margin-left: 60px;
-    width: 60ch;
+    font-size: 23px;
+    color: azure;
+    margin-top: 15px;
 }
-
 .images {
     display: flex;
     flex-direction: column;
@@ -130,27 +102,74 @@ article {
     height: 250px;
     margin-bottom: 20px;
 }
-
-.art {
-    display: inline-block;
-    width: 93%;
+h2 {
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(220, 238, 255);
+    font-style: italic;
 }
-
-.article1,
-.article2,
-.article3 {
-    font-size: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    display: inline-block;
-    width: 93%;
+.art_list{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 60px;
 }
-
-.div__email {
-    font-size: 20px;
-    display: inline-block;
-    padding-left: 60px;
-}
-article div{
+.art_list h4{
     padding-top: 30px;
+    color: azure;
+    font-size: 22px;
+}
+.art_list p{
+    font-family: cursive;
+    font-size: 18px;
+    color: azure;
+    width: 100%;
+    text-indent: 15px;
+}
+.art_ol{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.art_ol ol h5{
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: azure;
+}
+.art_ol ol li{
+    font-family: cursive;
+    font-size: 17px;
+    padding-top: 10px;
+    color: azure;
+    width: 100%;
+}
+.tercer_ol{
+    list-style: lower-latin;
+}
+.art_dl{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.art_dl dl dt{
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: azure;
+}
+.art_dl dl dd{
+    font-family: cursive;
+    font-size: 17px;
+    padding-top: 10px;
+    color: azure;
+    width: 100%;
+    text-indent: 15px;
+}
+.art_dl dl dd ul li{
+    margin-left: 50px;
+    font-family: cursive;
+    font-size: 17px;
+    padding-top: 10px;
+    color: azure;
+    width: 95%;
 }
