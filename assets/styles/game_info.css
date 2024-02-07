@@ -151,3 +151,13 @@ th{
     text-decoration: none;
     color: rgb(60, 177, 255);
 }
+.maps{
+    margin-top: 30px;
+}
+.maps h3{
+    margin-bottom: 20px;
+}
+.maps table{
+    margin-bottom: 10px;
+    border-collapse: collapse;
+}

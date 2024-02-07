@@ -95,6 +95,7 @@ form{
 .div_form{
     display: flex;
     justify-content: center;
+    padding-bottom: 10px;
 }
 .street{
     width: 100%;
@@ -119,9 +120,6 @@ form{
     padding-right: 47px;
     margin-bottom: 10px;
 }
-.grade{
-    width: 95.8%;
-}
 .fieldset1 div{
     display: flex;
     flex-direction: column;
@@ -138,9 +136,6 @@ form{
 .uniform legend{
     padding-top: 20px;
 }
-.uniform label input{
-    margin-left: 20px;
-}
 .text{
 margin-top: 20px;
 }
@@ -153,7 +148,11 @@ margin-top: 20px;
 .parent{
     width: 100%;
 }
+.parent input{
+    width: 60%;
+}
 button{
+    margin-bottom: 10px;
     margin-top: 20px;
     margin-right: 20px;
     font-size: 20px;
