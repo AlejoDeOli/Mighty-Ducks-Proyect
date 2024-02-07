@@ -91,6 +91,7 @@ form{
     border: 1px solid black;
     flex-wrap: wrap;
     margin-top: 20px;
+    padding: 10px;
 }
 .div_form{
     display: flex;
@@ -102,22 +103,22 @@ form{
     margin-top: 10px;
 }
 .street input{
-    width: 83%;
+    width: 82.5%;
 }
 .city{
-    width: 65%;
+    width: 64%;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 .city input{
-    width: 91%;
+    width: 87%;
 }
 .zip{
     margin-top: 10px;
     margin-bottom: 10px;
 }
 .birth{
-    padding-right: 47px;
+    padding-right: 37px;
     margin-bottom: 10px;
 }
 .fieldset1 div{
