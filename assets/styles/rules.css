@@ -57,7 +57,7 @@ html {
     background-color: #110074;
     color: white;
     padding: 4px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 nav a[href="#"] {
@@ -73,7 +73,7 @@ header nav a:nth-child(3) {
 a:hover {
     transform: scale(.88);
 }
-section{
+.section{
     display: flex;
 }
 .title_lista{

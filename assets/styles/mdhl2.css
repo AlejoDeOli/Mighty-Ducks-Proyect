@@ -60,7 +60,7 @@ html {
     background-color: #110074;
     color: white;
     padding: 4px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 nav a[href="#"] {
@@ -100,7 +100,7 @@ p {
     color: aliceblue;
 }
 
-section {
+.section {
     display: flex;
     align-items: center;
 }
